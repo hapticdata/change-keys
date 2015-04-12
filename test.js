@@ -1,5 +1,5 @@
 var test       = require('tape'),
-    modifyKeys = require('./index');
+    changeKeys = require('./index');
 
 var numAssertions = 5;
 
@@ -18,7 +18,7 @@ test('modifies keys of a single object', function(t){
         opacity: 0.5,
         background: { color: 'black' }
     };
-    var result = modifyKeys(original,{
+    var result = changeKeys(original,{
         x: 'left',
         y: 'top'
     });
@@ -35,7 +35,7 @@ test('modifies keys on a collection', function(t){
 
     t.plan(numAssertions * originals.length);
 
-    var results = modifyKeys( originals, { x: 'left', y: 'top' });
+    var results = changeKeys( originals, { x: 'left', y: 'top' });
     originals.forEach(function( o, i ){
         assert(t, o, results[i]);
     });

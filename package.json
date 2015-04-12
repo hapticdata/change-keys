@@ -1,5 +1,5 @@
 {
-  "name": "modify-keys",
+  "name": "change-keys",
   "version": "1.0.0",
   "description": "create a new object with modified keys from the original",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hapticdata/modify-keys.git"
+    "url": "git://github.com/hapticdata/change-keys.git"
   },
   "keywords": [
     "objects",
@@ -21,9 +21,9 @@
   "author": "Kyle Phillips <kyle@haptic-data.com> (http://hapticdata.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hapticdata/modify-keys.git/issues"
+    "url": "https://github.com/hapticdata/change-keys.git/issues"
   },
-  "homepage": "https://github.com/hapticdata/modify-keys.git",
+  "homepage": "https://github.com/hapticdata/change-keys.git",
   "dependencies": {
     "tape": "^4.0.0"
   }
