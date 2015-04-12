@@ -1,4 +1,4 @@
-# modify-keys
+# change-keys
 
 a simple utility to get a new object with transformed property names.
 

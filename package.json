@@ -1,6 +1,6 @@
 {
   "name": "change-keys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "create a new object with modified keys from the original",
   "main": "index.js",
   "scripts": {
