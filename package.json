@@ -1,6 +1,6 @@
 {
   "name": "change-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create a new object with modified keys from the original",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/hapticdata/change-keys.git/issues"
   },
   "homepage": "https://github.com/hapticdata/change-keys.git",
-  "dependencies": {
+  "devDependencies": {
     "tape": "^4.0.0"
   }
 }
