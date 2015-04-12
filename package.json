@@ -1,0 +1,30 @@
+{
+  "name": "modify-keys",
+  "version": "1.0.0",
+  "description": "create a new object with modified keys from the original",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hapticdata/modify-keys.git"
+  },
+  "keywords": [
+    "objects",
+    "collections",
+    "modify",
+    "keys",
+    "immutable",
+    "util"
+  ],
+  "author": "Kyle Phillips <kyle@haptic-data.com> (http://hapticdata.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapticdata/modify-keys.git/issues"
+  },
+  "homepage": "https://github.com/hapticdata/modify-keys.git",
+  "dependencies": {
+    "tape": "^4.0.0"
+  }
+}
